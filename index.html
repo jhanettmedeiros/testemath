@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Matheus Abreu - Consultor Imobiliário</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header role="banner">
+    <div class="header-inner container">
+      <div class="logo" tabindex="0" aria-label="Logotipo do consultor imobiliário Matheus Abreu">Matheus Abreu</div>
+      <nav class="desktop-nav" role="navigation" aria-label="Menu principal">
+        <a href="#sobre" tabindex="0">Sobre</a>
+        <a href="#servicos" tabindex="0">Serviços</a>
+        <a href="#contato" tabindex="0">Contato</a>
+      </nav>
+      <button
+        class="mobile-menu-toggle"
+        aria-label="Abrir menu de navegação"
+        aria-haspopup="true"
+        aria-controls="mobile-menu"
+        aria-expanded="false"
+      >
+        <span class="material-icons" aria-hidden="true">menu</span>
+      </button>
+    </div>
+  </header>
+
+  <nav
+    id="mobile-menu"
+    class="mobile-nav"
+    role="navigation"
+    aria-label="Menu principal móvel"
+  >
+    <a href="#sobre" tabindex="0" role="link">Sobre</a>
+    <a href="#servicos" tabindex="0" role="link">Serviços</a>
+    <a href="#contato" tabindex="0" role="link">Contato</a>
+  </nav>
+  <div class="mobile-menu-overlay" tabindex="-1" aria-hidden="true"></div>
+
+  <main>
+    <section class="hero" role="region" aria-label="Apresentação de Matheus Abreu, consultor imobiliário">
+      <h1>Confiança e Parceria para Encontrar Seu Imóvel Ideal</h1>
+      <p>Sou Matheus Abreu, consultor imobiliário dedicado a ajudar você a realizar o sonho da casa perfeita.</p>
+      <a href="https://api.whatsapp.com/send?phone=5598987036592" class="btn-primary" role="button" tabindex="0" target="_blank">Fale Comigo</a>
+    </section>
+
+    <section id="sobre" aria-labelledby="sobre-title">
+      <h2 id="sobre-title" class="section-title">Sobre</h2>
+      <div class="underline"></div>
+      <p class="about-text">
+        Minha abordagem é baseada na parceria verdadeira e confiança construída com cada cliente.
+        Juntos, encontramos os imóveis que realmente fazem sentido para você, priorizando suas necessidades e desejos.
+      </p>
+    </section>
+
+    <section id="servicos" aria-labelledby="servicos-title">
+      <h2 id="servicos-title" class="section-title">Serviços</h2>
+      <div class="underline"></div>
+      <div class="services-grid">
+        <article tabindex="0" class="service-card" aria-label="Consultoria personalizada">
+          <span class="material-icons service-icon" aria-hidden="true">support_agent</span>
+          <h3 class="service-title">Consultoria Personalizada</h3>
+          <p class="service-text">Atenção total às suas necessidades para oferecer opções que realmente combinam com seu perfil.</p>
+        </article>
+        <article tabindex="0" class="service-card" aria-label="Análise de mercado">
+          <span class="material-icons service-icon" aria-hidden="true">insights</span>
+          <h3 class="service-title">Análise de Mercado</h3>
+          <p class="service-text">Atualizado com as melhores ofertas e tendências para garantir as melhores oportunidades.</p>
+        </article>
+        <article tabindex="0" class="service-card" aria-label="Acompanhamento dedicado">
+          <span class="material-icons service-icon" aria-hidden="true">badge</span>
+          <h3 class="service-title">Acompanhamento Dedicado</h3>
+          <p class="service-text">Suporte integral durante todo o processo, do primeiro contato à entrega das chaves.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contato" aria-labelledby="contato-title" class="hero2">
+      <a href="https://forms.gle/SqQ5VMzguqPmCFUd8" class="btn-primary" role="button" tabindex="0" target="_blank">Quero Mais Informações</a>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <div class="social-links">
+      <a href="https://api.whatsapp.com/send?phone=5598987036592" target="_blank" aria-label="WhatsApp">
+        <img src="./assets/whatsapp.png" alt="WhatsApp" />
+      </a>
+      <a href="https://www.instagram.com/imoveismatheusabreuu?igsh=cnJmYWZ2ZnlieTJ0&utm_source=qr" target="_blank" aria-label="Instagram">
+        <img src="./assets/instagram.png" alt="Instagram" />
+      </a>
+    </div>
+    <p>© 2024 Matheus Abreu - Consultor Imobiliário. Todos os direitos reservados.</p>
+</footer>
+
+  
+</body>
+</html>
+
